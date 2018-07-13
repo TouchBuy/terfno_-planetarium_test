@@ -2877,7 +2877,7 @@ internal static class OVRPlugin
 			if(version >= OVRP_1_15_0.version)
 			{
 				Result result = OVRP_1_15_0.ovrp_GetNodeFrustum2(nodeId, out frustum);
-				if(result != Resut.Success)
+				if(result != Result.Success)
 				{
 					return false;
 				}
